@@ -74,11 +74,11 @@ namespace VRTK
             switch (OVRPlugin.GetSystemHeadsetType())
             {
                 case OVRPlugin.SystemHeadset.Rift_CV1:
-                    return CleanPropertyString("oculusrift");
+/*                    return CleanPropertyString("oculusrift");
                 case OVRPlugin.SystemHeadset.GearVR_R320:
                 case OVRPlugin.SystemHeadset.GearVR_R321:
                 case OVRPlugin.SystemHeadset.GearVR_R322:
-                case OVRPlugin.SystemHeadset.GearVR_R323:
+                case OVRPlugin.SystemHeadset.GearVR_R323:*/
                     return CleanPropertyString("oculusgearvr");
                 case OVRPlugin.SystemHeadset.Rift_DK1:
                     return CleanPropertyString("oculusriftdk1");
